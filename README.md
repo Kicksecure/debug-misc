@@ -1,10 +1,11 @@
-# Enables verbose output during boot #
+# Enables miscellaneous debug settings #
 
 Ships a /etc/default/grub.d/30_output_verbose.cfg configuration file, that
-removes "quiet" from the GRUB_CMDLINE_LINUX_DEFAULT variable.
+removes `quiet` from the `GRUB_CMDLINE_LINUX_DEFAULT` variable and adds
+`debug=vc` to the kernel boot parameter to enable verbose output during the
+initial ramdisk boot phase.
 
-For better usability, so it doesn't look like boot hangs on slow systems and
-to ease debugging in case of issues.
+For better usability, to ease debugging in case of issues.
 ## How to install `debug-misc` using apt-get ##
 
 1\. Download [Whonix's Signing Key]().
