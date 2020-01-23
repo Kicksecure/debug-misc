@@ -1,0 +1,23 @@
+commit a45bc916f7e37d4fb2bd3d2f6bcb31c72c34b669
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Jan 23 09:53:28 2020 -0500
+
+    description
+
+commit 4bde3f4a09014b3aae953132b18e6b1c8eb96611
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Jan 23 09:51:30 2020 -0500
+
+    initial implementation
+
+commit 478e49dc7d9d95b1575147bb9f3c4fdfcb78b224
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Jan 23 09:48:15 2020 -0500
+
+    rename to debug-misc
+
+commit bc247eeaf0a2bab8031c0daa5be370a94bb3c8dc
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Jan 23 09:47:43 2020 -0500
+
+    initial import from grub-output-verbose package
