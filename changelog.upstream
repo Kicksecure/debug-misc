@@ -1,0 +1,363 @@
+commit b1c21c1712a38677568428b79fa1ec46bc1a0556
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Dec 6 10:57:11 2019 -0500
+
+    add "debug=vc" to GRUB_CMDLINE_LINUX
+
+commit 52efd0528193ed466aff238999b85f9863e14d9c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Aug 1 11:40:39 2019 +0000
+
+    bumped changelog version
+
+commit 38629f58eef0e5562e616f58b87577ba32ebaa36
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Aug 1 11:13:38 2019 +0000
+
+    readme
+
+commit b65dc3e57701f63e0f990cd98b49c12da4b03b8b
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jun 8 11:13:02 2019 +0000
+
+    bumped changelog version
+
+commit e8077a1b8e8be72dcdf6faa7e6eb6eee8268a164
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jun 8 00:05:32 2019 -0400
+
+    fix debian/watch lintian warning debian-watch-contains-dh_make-template
+
+commit aee80ccd6d1011a4b5a2aae4726935811743b2dc
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri May 24 20:41:19 2019 +0000
+
+    bumped changelog version
+
+commit 5ae3367b083938d477839eaa33ebd6cab2edda8c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri May 24 12:29:05 2019 -0400
+
+    readme
+
+commit 637ce3c70d722f0d3c2c21ea89f6b9ff3ebd1c39
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri May 24 11:37:55 2019 -0400
+
+    minor
+
+commit 75f7ebf2a8758dc0411c71bd378e869293b300e4
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri May 24 11:37:26 2019 -0400
+
+    fix
+
+commit d468125210f3630b265a1acaf4b75a935b15a430
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun May 12 10:39:20 2019 +0000
+
+    bumped changelog version
+
+commit 9d02dfca146b6f7fdddeef9f5a732a511bf27037
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun May 12 02:58:43 2019 -0400
+
+    update path to pre.bsh
+
+commit ea9aa961d59629170723c96a53898488b48ce367
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri May 3 11:26:34 2019 +0000
+
+    bumped changelog version
+
+commit 96b2f3db490666d1d375a2c7b85e0ecb348d3aad
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri May 3 10:56:54 2019 +0000
+
+    update
+
+commit 6852243f041df21f39d6f13102e16df63cb4e758
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Apr 6 12:05:53 2019 +0000
+
+    bumped changelog version
+
+commit 9443db0eebeab541e9c6cd821f91066f286178f1
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Apr 4 05:50:59 2019 -0400
+
+    port to debian buster
+
+commit a31e48db0c76a251395451ed8987195323c76794
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Apr 3 18:05:50 2019 -0400
+
+    readme
+
+commit b7246975c98126aed47561263487dcbae7401f10
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Mar 29 09:55:11 2019 +0000
+
+    bumped changelog version
+
+commit 5c12e87d62482f8473347b9bff635c32e78c4590
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Mar 29 09:03:16 2019 +0000
+
+    https://www.whonix.org/wiki/Dev/Licensing
+
+commit 865d3214b88417580e046e18101a812eb2444b13
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Mar 12 11:28:30 2019 +0000
+
+    bumped changelog version
+
+commit 6c502dbd248856a25afc9b0cd6f136c02ea606eb
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Mar 1 14:32:39 2019 +0000
+
+    add improved legal protections clauses
+    
+    The license for software created by Whonix is the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version with additional terms applicable per GNU GPL version 3 section 7.
+    
+    The additional terms are based on the Doom 3 license which is Debian refers to as `GPL-3+-with-id-software-additional-terms`, which is Debian DFSG [1] (The Debian Free Software Guidelines) approved and which is therefore suitable for Debian `main`. Whonix made applied minimal changes to it:
+    
+    * Rewrite `The Doom 3 BFG Edition GPL Source Code` to the more common `this program` which is used throughout the GPL.
+    * Added a "trump clause" [2], in other words, any conflicts or disputes between the additional terms and the GPLv3 shall be resolved in favor of the GPLv3 by adding `Notwithstanding any other provision of this License` (as mentioned in GPL FAQ [3]) at the beginning of the additional terms.
+    
+    [1] https://www.debian.org/social_contract#guidelines
+    [2] https://www.fsf.org/news/canonical-updated-licensing-terms
+    [3] https://www.gnu.org/licenses/gpl-faq.html#v3Notwithstanding
+    
+    For more considerations, see also:
+    https://www.whonix.org/wiki/Dev/Licensing
+
+commit 7a72765b1667a043ad520aafe2b05b0ac847627c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Aug 27 16:40:39 2018 +0000
+
+    bumped changelog version
+
+commit 70b95343448ddd4f7ee11939b6d2af72b30e11df
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Aug 21 05:18:32 2018 +0800
+
+    readme
+
+commit b53410bd2e22e2d4bc738d2d33a3175dec8a437f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Feb 1 15:06:48 2018 +0000
+
+    bumped changelog version
+
+commit 4fef70d05c5d7172bb776fa6efcf11bfc3cee53a
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Jan 29 15:50:29 2018 +0000
+
+    readme
+
+commit b82a8c11bf38386275d8621f06d2a49eb0c2c499
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Jan 29 15:38:51 2018 +0000
+
+    update copyright
+
+commit 1ba4a53c2cf1b0ad353dc031d29316e0583e1c5a
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Jan 29 15:21:59 2018 +0000
+
+    update copyright
+
+commit 8253cf4bdd16d5fccba51ada028587fed9c40c45
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Jan 29 15:15:11 2018 +0000
+
+    update copyright
+
+commit 2f63e2d8386cc390e331a022c806ed471dd87000
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Jan 29 15:09:36 2018 +0000
+
+    update copyright
+
+commit 7698b35f0105a37bc87eb800974eda9913f260b7
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Feb 17 13:59:12 2017 +0000
+
+    bumped changelog version
+
+commit 66a05721fee0ba9d18ef0497225e82f881c2daa3
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Feb 14 17:30:30 2017 +0000
+
+    "$@"
+
+commit 3dcd6e0a464e410c76b84eb94d207762f927a74a
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Feb 10 15:47:50 2017 +0000
+
+    remove faketime from Build-Depends:
+    
+    since no longer used for reproducible builds
+
+commit 2f578de885b9682d549160e9d0d228de3d0fbb6e
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Feb 10 15:35:24 2017 +0000
+
+    remove debian/gain-root-command workaround
+
+commit eb780b920971f2d7baef33641cf8ce60d55f9e7e
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jan 15 15:30:47 2017 +0000
+
+    bumped changelog version
+
+commit 96a05c59c4665de39c92dc76903b09f2e59e60db
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jan 15 08:35:32 2017 +0100
+
+    packaging, bumped Standards-Version from 3.9.6 to 3.9.8 for jessie support
+
+commit 0bf754c75595ff9e9fe55f6695b3934e4fcc85b6
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Dec 10 02:11:12 2016 +0000
+
+    bumped changelog version
+
+commit 7627656e8583e2c28a67c942e2a725086f02c2ae
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Nov 21 17:41:10 2016 +0000
+
+    readme
+
+commit 176a1c71af5b0be3e6282b60e3749404c0ae5b13
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Aug 25 14:08:01 2015 +0000
+
+    bumped changelog version
+
+commit 5ab34d0aef1813f00a050325a9da795d654e7354
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Aug 24 17:47:21 2015 +0000
+
+    bumped changelog version
+
+commit 1b8e74d70cef051c9d239692a48db8a82f87b62f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Aug 15 17:57:19 2015 +0000
+
+    run update-grub during postinst so package takes effect right after installation - https://phabricator.whonix.org/T377
+
+commit 992bd45386906ba33e77ea111789a66f0ea59e78
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Jun 3 14:59:43 2015 +0000
+
+    bumped changelog version
+
+commit c9c2b3cb65d57aec44da394db8531981b5dd0d04
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Apr 30 17:56:20 2015 +0000
+
+    bumped changelog version
+
+commit b25ed6daaae556100eeb2ab96bc2258b0f36fa5b
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Apr 28 13:43:12 2015 +0000
+
+    added debian/source/lintian-overrides with debian-watch-may-check-gpg-signature to fix lintian warning - https://phabricator.whonix.org/T277
+
+commit d9278c9988babb9dedfb5da40ab2a906672f322d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Apr 26 23:16:00 2015 +0000
+
+    packaging, bumped Standards-Version from 3.9.4 to 3.9.6 for jessie support
+
+commit 44745a1a02a968f146300547de2492e450e5682a
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Apr 7 17:41:45 2015 +0000
+
+    bumped changelog version
+
+commit 420e279464049bc6e5f651f14573d7b748518224
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Apr 2 18:41:11 2015 +0000
+
+    added genmkfile to Build-Depends
+
+commit 30bdf8028eaa52866f48b11be4c00404bb440791
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Apr 2 17:24:34 2015 +0000
+
+    updated makefile generic to version 1.5
+
+commit 7be1c0e69e2414aa27d4e2e4f6726173aa57ee24
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Mar 24 17:36:28 2015 +0000
+
+    bumped changelog version
+
+commit c6e8462d8fa1a6f02244f06ab7e7a2c814c6d2ec
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Mar 24 17:26:33 2015 +0000
+
+    updated makefile generic to version 1.4
+
+commit ec30dd9c45d25d860a09743c073b8042ca3ed954
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Feb 4 00:56:17 2015 +0000
+
+    bumped changelog version
+
+commit 6fe026729dbbb8b3e37b3b391834b05410860da7
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Feb 4 00:44:49 2015 +0000
+
+    added changelog.upstream
+
+commit 9c63ba5fb497eb3ab453d86f3e0cd42971843f5c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Feb 4 00:40:37 2015 +0000
+
+    updated makefile generic to version 1.3
+
+commit 47b595c5f7e86f687644ef888c5f6189d5c1c538
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Feb 3 23:58:42 2015 +0000
+
+    Added creation of upstream changelog to debian/rules
+
+commit ddae9658ed043e328a91823dce8510076dafdfae
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Jan 7 19:42:49 2015 +0000
+
+    updated readme
+
+commit 4647389ba3bcdbd09126d9dfd4900d62ab16a24b
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Jan 7 19:33:42 2015 +0000
+
+    bumped compat from 8 to 9
+
+commit 5f18f9e3991650de3aa99291eec350c0a6b00a89
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Dec 15 00:00:01 2014 +0000
+
+    fix
+
+commit 9dc0c7ae42e4cd42bd53672c7aa17d8a7f957c66
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Dec 13 13:55:26 2014 +0000
+
+    fix
+
+commit ea2bb6671f250c1cdd8ab9f258e7cca6e8c9b262
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Dec 7 05:16:08 2014 +0000
+
+    initial implementation
+
+commit 923a8738a5f7b1a93abdeada0286e96f5f0d7dd7
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Dec 7 04:32:24 2014 +0000
+
+    initial implementation

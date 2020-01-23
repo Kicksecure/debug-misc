@@ -1,0 +1,49 @@
+#!/bin/sh
+
+set -e
+
+mydir="$( cd "$( dirname "$0" )" && pwd )"
+cd "$mydir"
+cd ..
+cd ..
+cd ..
+
+check_if_removed() {
+   grep_exit_code="0"
+   echo "$GRUB_CMDLINE_LINUX_DEFAULT" | grep -w "quiet" || grep_exit_code="$?"
+   if [ "$grep_exit_code" = "0" ]; then
+      echo "$0: 'quiet' not removed from GRUB_CMDLINE_LINUX_DEFAULT!" >&2
+      exit 1
+   fi
+}
+
+test_one() {
+   . ./etc/default/grub.d/30_output_verbose.cfg
+   check_if_removed
+}
+
+test_two() {
+   set -o nounset
+   . ./etc/default/grub.d/30_output_verbose.cfg
+   check_if_removed
+}
+
+GRUB_CMDLINE_LINUX_DEFAULT="vga=0x0317 quiet apparmor=1 quiet security=apparmor"
+test_one
+GRUB_CMDLINE_LINUX_DEFAULT="vga=0x0317 apparmor=1 security=apparmor"
+test_one
+GRUB_CMDLINE_LINUX_DEFAULT=""
+test_one
+unset GRUB_CMDLINE_LINUX_DEFAULT
+test_one
+
+GRUB_CMDLINE_LINUX_DEFAULT="vga=0x0317 quiet apparmor=1 quiet security=apparmor"
+test_two
+GRUB_CMDLINE_LINUX_DEFAULT="vga=0x0317 apparmor=1 security=apparmor"
+test_two
+GRUB_CMDLINE_LINUX_DEFAULT=""
+test_two
+unset GRUB_CMDLINE_LINUX_DEFAULT
+test_two
+
+echo "$0: All tests passed."
