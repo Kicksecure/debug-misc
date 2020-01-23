@@ -1,3 +1,27 @@
+commit 714df039e42b744da2886683309d21f3dee7723f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Jan 23 10:20:45 2020 -0500
+
+    readme
+
+commit 4ca2b15dc38e30de432b926c54e9aa347451c75d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Jan 23 10:18:22 2020 -0500
+
+    undo sysctl settings by security-misc
+
+commit fc4581427bf2113b05d705487cbf5897a0855391
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Jan 23 09:54:15 2020 -0500
+
+    copyright
+
+commit 02632874b803e74d201002e2343dd0e1b74e14e6
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Jan 23 09:53:51 2020 -0500
+
+    changelog
+
 commit a45bc916f7e37d4fb2bd3d2f6bcb31c72c34b669
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Jan 23 09:53:28 2020 -0500
