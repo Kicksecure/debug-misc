@@ -5,7 +5,7 @@ removes "quiet" from the GRUB_CMDLINE_LINUX_DEFAULT variable.
 
 For better usability, so it doesn't look like boot hangs on slow systems and
 to ease debugging in case of issues.
-## How to install `grub-output-verbose` using apt-get ##
+## How to install `debug-misc` using apt-get ##
 
 1\. Download [Whonix's Signing Key]().
 
@@ -33,15 +33,15 @@ echo "deb https://deb.whonix.org buster main contrib non-free" | sudo tee /etc/a
 sudo apt-get update
 ```
 
-5\. Install `grub-output-verbose`.
+5\. Install `debug-misc`.
 
 ```
-sudo apt-get install grub-output-verbose
+sudo apt-get install debug-misc
 ```
 
 ## How to Build deb Package ##
 
-Replace `apparmor-profile-torbrowser` with the actual name of this package with `grub-output-verbose` and see [instructions](https://www.whonix.org/wiki/Dev/Build_Documentation/apparmor-profile-torbrowser).
+Replace `apparmor-profile-torbrowser` with the actual name of this package with `debug-misc` and see [instructions](https://www.whonix.org/wiki/Dev/Build_Documentation/apparmor-profile-torbrowser).
 
 ## Contact ##
 
@@ -50,4 +50,4 @@ Replace `apparmor-profile-torbrowser` with the actual name of this package with 
 
 ## Donate ##
 
-`grub-output-verbose` requires [donations](https://www.whonix.org/wiki/Donate) to stay alive!
+`debug-misc` requires [donations](https://www.whonix.org/wiki/Donate) to stay alive!

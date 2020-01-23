@@ -1,136 +1,136 @@
-grub-output-verbose (3:2.3-1) unstable; urgency=medium
+debug-misc (3:2.3-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
  -- Patrick Schleizer <adrelanos@riseup.net>  Fri, 06 Dec 2019 15:58:02 +0000
 
-grub-output-verbose (3:2.2-1) unstable; urgency=medium
+debug-misc (3:2.2-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
  -- Patrick Schleizer <adrelanos@riseup.net>  Thu, 01 Aug 2019 11:40:39 +0000
 
-grub-output-verbose (3:2.1-1) unstable; urgency=medium
+debug-misc (3:2.1-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
  -- Patrick Schleizer <adrelanos@riseup.net>  Sat, 08 Jun 2019 11:13:02 +0000
 
-grub-output-verbose (3:2.0-1) unstable; urgency=medium
+debug-misc (3:2.0-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
  -- Patrick Schleizer <adrelanos@riseup.net>  Fri, 24 May 2019 20:41:19 +0000
 
-grub-output-verbose (3:1.9-1) unstable; urgency=medium
+debug-misc (3:1.9-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
  -- Patrick Schleizer <adrelanos@riseup.net>  Sun, 12 May 2019 10:39:20 +0000
 
-grub-output-verbose (3:1.8-1) unstable; urgency=medium
+debug-misc (3:1.8-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
  -- Patrick Schleizer <adrelanos@riseup.net>  Fri, 03 May 2019 11:26:34 +0000
 
-grub-output-verbose (3:1.7-1) unstable; urgency=medium
+debug-misc (3:1.7-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
  -- Patrick Schleizer <adrelanos@riseup.net>  Sat, 06 Apr 2019 12:05:53 +0000
 
-grub-output-verbose (3:1.6-1) unstable; urgency=medium
+debug-misc (3:1.6-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
  -- Patrick Schleizer <adrelanos@riseup.net>  Fri, 29 Mar 2019 09:55:11 +0000
 
-grub-output-verbose (3:1.5-1) unstable; urgency=medium
+debug-misc (3:1.5-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
  -- Patrick Schleizer <adrelanos@riseup.net>  Tue, 12 Mar 2019 11:28:30 +0000
 
-grub-output-verbose (3:1.4-1) unstable; urgency=medium
+debug-misc (3:1.4-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
  -- Patrick Schleizer <adrelanos@riseup.net>  Mon, 27 Aug 2018 16:40:39 +0000
 
-grub-output-verbose (3:1.3-1) unstable; urgency=medium
+debug-misc (3:1.3-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
  -- Patrick Schleizer <adrelanos@riseup.net>  Thu, 01 Feb 2018 15:06:48 +0000
 
-grub-output-verbose (3:1.2-1) unstable; urgency=medium
+debug-misc (3:1.2-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
  -- Patrick Schleizer <adrelanos@riseup.net>  Fri, 17 Feb 2017 13:59:12 +0000
 
-grub-output-verbose (3:1.1-1) unstable; urgency=medium
+debug-misc (3:1.1-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
  -- Patrick Schleizer <adrelanos@riseup.net>  Sun, 15 Jan 2017 15:30:47 +0000
 
-grub-output-verbose (3:1.0-1) unstable; urgency=medium
+debug-misc (3:1.0-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
  -- Patrick Schleizer <adrelanos@riseup.net>  Sat, 10 Dec 2016 02:11:12 +0000
 
-grub-output-verbose (3:0.9-1) unstable; urgency=medium
+debug-misc (3:0.9-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
  -- Patrick Schleizer <adrelanos@riseup.net>  Tue, 25 Aug 2015 14:08:01 +0000
 
-grub-output-verbose (3:0.8-1) unstable; urgency=medium
+debug-misc (3:0.8-1) unstable; urgency=medium
 
   * New upstream version (local package).
 
  -- Patrick Schleizer <adrelanos@riseup.net>  Mon, 24 Aug 2015 17:47:21 +0000
 
-grub-output-verbose (3:0.7-1) unstable; urgency=low
+debug-misc (3:0.7-1) unstable; urgency=low
 
   * New upstream version (local package).
 
  -- Patrick Schleizer <adrelanos@riseup.net>  Wed, 03 Jun 2015 14:59:43 +0000
 
-grub-output-verbose (3:0.6-1) unstable; urgency=low
+debug-misc (3:0.6-1) unstable; urgency=low
 
   * New upstream version (local package).
 
  -- Patrick Schleizer <adrelanos@riseup.net>  Thu, 30 Apr 2015 17:56:20 +0000
 
-grub-output-verbose (3:0.5-1) unstable; urgency=low
+debug-misc (3:0.5-1) unstable; urgency=low
 
   * New upstream version (local package).
 
  -- Patrick Schleizer <adrelanos@riseup.net>  Tue, 07 Apr 2015 17:41:44 +0000
 
-grub-output-verbose (3:0.4-1) unstable; urgency=low
+debug-misc (3:0.4-1) unstable; urgency=low
 
   * New upstream version (local package).
 
  -- Patrick Schleizer <adrelanos@riseup.net>  Tue, 24 Mar 2015 17:29:13 +0000
 
-grub-output-verbose (3:0.3-1) unstable; urgency=low
+debug-misc (3:0.3-1) unstable; urgency=low
 
   * New upstream version.
 
  -- Patrick Schleizer <adrelanos@riseup.net>  Wed, 04 Feb 2015 00:51:51 +0000
 
-grub-output-verbose (3:0.2-1) unstable; urgency=low
+debug-misc (3:0.2-1) unstable; urgency=low
 
   * New upstream version.
 
  -- Patrick Schleizer <adrelanos@riseup.net>  Sun, 17 Aug 2014 20:45:14 +0000
 
-grub-output-verbose (3:0.1-2) unstable; urgency=low
+debug-misc (3:0.1-2) unstable; urgency=low
 
   * Initial release.
 
