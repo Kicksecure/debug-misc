@@ -7,9 +7,27 @@ initial ramdisk boot phase.
 
 Undo debugging related sysctl settings by package security-misc.
 
-Enable persistent systemd journal log.
+Enables persistent systemd journal log.
+
+Disables /lib/systemd/coredump.conf.d/disable-coredumps.conf by package
+security-misc by creating a symlink from
+/etc/systemd/coredump.conf.d/disable-coredumps.conf to /dev/null.
+debian/debug-misc.links
+
+Disables panic-on-oops, remove-system.map by security-misc.
+
+Coredumps are enabled.
+/etc/security/limits.d/40_debug-misc.conf
+
+Coredumps may contain important information such as encryption keys or
+passwords. Package security-misc disables doredumps. Package debug-misc
+re-enables coredumps.
 
 For better usability, to ease debugging in case of issues.
+
+For better security, this package should only be installed on specific
+machines that require debugging. Unfortunately, security and debugging are
+conflicting optimization goals.
 ## How to install `debug-misc` using apt-get ##
 
 1\. Download [Whonix's Signing Key]().
