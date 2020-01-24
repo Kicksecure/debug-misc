@@ -20,4 +20,8 @@ Description: Enables miscellaneous debug settings
  `debug=vc` to the kernel boot parameter to enable verbose output during the
  initial ramdisk boot phase.
  .
+ Undo debugging related sysctl settings by package security-misc.
+ .
+ Enable persistent systemd journal log.
+ .
  For better usability, to ease debugging in case of issues.
