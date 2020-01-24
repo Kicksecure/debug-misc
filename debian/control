@@ -34,3 +34,7 @@ Description: Enables miscellaneous debug settings
  re-enables coredumps.
  .
  For better usability, to ease debugging in case of issues.
+ .
+ For better security, this package should only be installed on specific
+ machines that require debugging. Unfortunately, security and debugging are
+ conflicting optimization goals.
