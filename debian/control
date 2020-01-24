@@ -14,6 +14,7 @@ Standards-Version: 4.3.0
 Package: debug-misc
 Architecture: all
 Depends: ${misc:Depends}
+Suggests: systemd-coredump, serial-console-enable
 Description: Enables miscellaneous debug settings
  Ships a /etc/default/grub.d/30_output_verbose.cfg configuration file, that
  removes `quiet` from the `GRUB_CMDLINE_LINUX_DEFAULT` variable and adds
