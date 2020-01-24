@@ -24,7 +24,9 @@ Description: Enables miscellaneous debug settings
  .
  Undo debugging related sysctl settings by package security-misc.
  .
- Enable persistent systemd journal log.
+ Enables persistent systemd journal log.
+ .
+ Disables panic-on-oops by security-misc.
  .
  Coredumps are enabled.
  /etc/security/limits.d/40_debug-misc.conf
