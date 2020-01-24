@@ -5,6 +5,10 @@ removes `quiet` from the `GRUB_CMDLINE_LINUX_DEFAULT` variable and adds
 `debug=vc` to the kernel boot parameter to enable verbose output during the
 initial ramdisk boot phase.
 
+Undo debugging related sysctl settings by package security-misc.
+
+Enable persistent systemd journal log.
+
 For better usability, to ease debugging in case of issues.
 ## How to install `debug-misc` using apt-get ##
 
