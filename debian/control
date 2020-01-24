@@ -26,7 +26,7 @@ Description: Enables miscellaneous debug settings
  .
  Enables persistent systemd journal log.
  .
- Disables panic-on-oops by security-misc.
+ Disables panic-on-oops, remove-system.map by security-misc.
  .
  Coredumps are enabled.
  /etc/security/limits.d/40_debug-misc.conf
