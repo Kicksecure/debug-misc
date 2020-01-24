@@ -1,3 +1,54 @@
+commit 31ea10606483fa4cdec4181163077647d6e6c7ae
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Jan 24 03:39:01 2020 -0500
+
+    readme
+
+commit 5f17b87901e252b8e082dcd81582fb704342d2e5
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Jan 24 03:32:55 2020 -0500
+
+    Disables /lib/systemd/coredump.conf.d/disable-coredumps.conf by package
+     security-misc by creating a symlink from
+     /etc/systemd/coredump.conf.d/disable-coredumps.conf to /dev/null.
+     debian/debug-misc.links
+
+commit 8d34d75b4f52fa5c31fec71384f5961f995c4f30
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Jan 24 03:20:23 2020 -0500
+
+    Disable remove-system.map by security-misc.
+
+commit 51d0815347b2f15b899679e7ca78bcaa63b32dda
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Jan 24 03:14:24 2020 -0500
+
+    Disables panic-on-oops by security-misc.
+
+commit d22822fb9252c832ab133d16cd92572840b8a80c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Jan 24 03:10:58 2020 -0500
+
+    description
+
+commit 8a2c428eed10b22c8486c83eb38ebaffeb5170ea
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Jan 24 03:09:05 2020 -0500
+
+    re-enable coredumps
+
+commit 1a7206e6dcff1023731a94f84e201ead177bfa3a
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Jan 24 03:00:30 2020 -0500
+
+    fix, renamed:    debian/grub-output-verbose.postinst -> debian/debug-misc.postinst
+
+commit a9b74ea85a08b05c8cd0d2b4331839833a57793f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Jan 24 02:59:59 2020 -0500
+
+    bumped changelog version
+
 commit c6250939f94552aaaf49fc604e458524dca5aa46
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Jan 24 02:58:03 2020 -0500
