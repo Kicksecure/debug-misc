@@ -26,6 +26,11 @@ Description: Enables miscellaneous debug settings
  .
  Enables persistent systemd journal log.
  .
+ Disables /lib/systemd/coredump.conf.d/disable-coredumps.conf by package
+ security-misc by creating a symlink from
+ /etc/systemd/coredump.conf.d/disable-coredumps.conf to /dev/null.
+ debian/debug-misc.links
+ .
  Disables panic-on-oops, remove-system.map by security-misc.
  .
  Coredumps are enabled.
