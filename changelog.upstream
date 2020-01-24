@@ -1,3 +1,21 @@
+commit c6250939f94552aaaf49fc604e458524dca5aa46
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Jan 24 02:58:03 2020 -0500
+
+    Replaces: grub-output-verbose
+
+commit bca337367c68dd83842930c148de2f5ffd9361e9
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Jan 24 02:57:03 2020 -0500
+
+    Suggests: systemd-coredump, serial-console-enable
+
+commit 203d42225055830ab05b38a40a1ec87af300b73b
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Jan 24 01:24:58 2020 -0500
+
+    bumped changelog version
+
 commit b6c060e4badf1641d66168d366c0f4e09f4e7019
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Jan 24 01:24:37 2020 -0500
