@@ -1,3 +1,9 @@
+debug-misc (3:0.3-1) unstable; urgency=medium
+
+  * New upstream version (local package).
+
+ -- Patrick Schleizer <adrelanos@riseup.net>  Fri, 24 Jan 2020 06:24:58 +0000
+
 debug-misc (3:0.2-1) unstable; urgency=medium
 
   * New upstream version (local package).

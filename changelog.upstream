@@ -1,3 +1,27 @@
+commit b6c060e4badf1641d66168d366c0f4e09f4e7019
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Jan 24 01:24:37 2020 -0500
+
+    readme
+
+commit 7a23c4b36d7d08ff57f938c59016ca1a9d9ff851
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Jan 24 00:51:22 2020 -0500
+
+    description
+
+commit 9fd9324a0f288dac8955e01939cd8efdc8bc3ea8
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Jan 24 00:50:29 2020 -0500
+
+    Enable persistent systemd journal log.
+
+commit 3473b09b26597aaae9d30627496c6d4d3fcdbf3f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Jan 23 10:21:05 2020 -0500
+
+    bumped changelog version
+
 commit 714df039e42b744da2886683309d21f3dee7723f
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Jan 23 10:20:45 2020 -0500
