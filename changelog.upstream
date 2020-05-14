@@ -1,3 +1,23 @@
+commit d93a08cad8a47129729204cc1b1e2ace8b1e204e
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu May 14 13:56:57 2020 -0400
+
+    readme
+
+commit 9e1ea579ca0a2d4399f2e1126b2ae2f583410947
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu May 14 13:56:10 2020 -0400
+
+    config-package-dev hide /etc/sysctl.d/30_silent-kernel-printk.conf by security-misc
+    
+    add /usr/share/debug-misc/marker to fix lintian warning debug-misc: package-contains-empty-directory usr/share/debug-misc/
+
+commit e20dbf7532a67b9832834c0808268376684c4a38
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu May 14 13:38:10 2020 -0400
+
+    bumped changelog version
+
 commit 5a856595c1cf0a4a3b08e6ea75bd2fe2b3f2f398
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu May 14 13:21:50 2020 -0400
