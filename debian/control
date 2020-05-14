@@ -18,9 +18,9 @@ Suggests: systemd-coredump, serial-console-enable
 Replaces: grub-output-verbose
 Description: Enables miscellaneous debug settings
  Ships a /etc/default/grub.d/30_output_verbose.cfg configuration file, that
- removes `quiet` from the `GRUB_CMDLINE_LINUX_DEFAULT` variable and adds
- `debug=vc` to the kernel boot parameter to enable verbose output during the
- initial ramdisk boot phase.
+ removes `quiet` and `loglevel=0` from the `GRUB_CMDLINE_LINUX_DEFAULT`
+ variable and adds `debug=vc` to the kernel boot parameter to enable
+ verbose output during the initial ramdisk boot phase.
  .
  Undo debugging related sysctl settings by package security-misc.
  .
@@ -33,7 +33,8 @@ Description: Enables miscellaneous debug settings
  .
  Disables panic-on-oops, remove-system.map by security-misc.
  .
- config-package-dev hide /etc/sysctl.d/30_silent-kernel-printk.conf
+ config-package-dev hide /etc/sysctl.d/30_silent-kernel-printk.conf which
+ kernel.printk to default as if security-misc would not have lowered verbosity.
  .
  Configure systemd getty service to not clear tty.
  /lib/systemd/system/getty@tty.service.d/30_debug-misc.conf
