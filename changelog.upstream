@@ -1,3 +1,17 @@
+commit 2cac2bed7169ae4d5477cbca1f2916bae110a450
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu May 14 14:07:05 2020 -0400
+
+    renamed: /etc/default/grub.d/30_output_verbose.cfg -> /etc/default/grub.d/45_debug-misc.cfg
+    
+    so it can overrule /etc/default/grub.d/40_kernel_hardening.cfg by security-misc
+
+commit 2b577628f475bce206f015749f2586a4af980c41
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu May 14 13:56:57 2020 -0400
+
+    bumped changelog version
+
 commit d93a08cad8a47129729204cc1b1e2ace8b1e204e
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu May 14 13:56:57 2020 -0400
