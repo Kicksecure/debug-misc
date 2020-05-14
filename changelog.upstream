@@ -1,3 +1,69 @@
+commit b5baa39373fe08dfe30463e9c193acf844f2c04f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu May 14 18:50:31 2020 -0400
+
+    readme
+
+commit 7033051e94aa1dd2eb156e1a651649fb29a1415b
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu May 14 18:50:31 2020 -0400
+
+    add debian install file (generated using "genmkfile debinstfile")
+
+commit 3d61e1c9e35bea489682f01f7df1c37864801dae
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu May 14 18:39:02 2020 -0400
+
+    start tty1 getty with --noissue so more messages can be seen
+
+commit 9da1373819d1e4bfb931210b7b2f401e56c0c9ef
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu May 14 18:35:34 2020 -0400
+
+    apply only to tty1
+
+commit 4c29579e8f5f4ff12283d355206c3c063f760236
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu May 14 18:28:29 2020 -0400
+
+    run update-grub at removal in postrm script
+
+commit 3098c77241b92ab382ec482795311bb51802b2f8
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu May 14 18:19:11 2020 -0400
+
+    description
+
+commit aca2651304b9345709b6fcffa79a9916566916d3
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu May 14 18:17:26 2020 -0400
+
+    description
+
+commit 44bdc1431202e98ca13b95ec4d3e8d7372968fe7
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu May 14 18:16:11 2020 -0400
+
+    description
+
+commit c5c9ad89d18b00f4d62751c35ef2279483c8d2cb
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu May 14 18:15:19 2020 -0400
+
+    typo
+
+commit 31fcc7b82760caf9f6d96766f35687319c46ed07
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu May 14 18:14:41 2020 -0400
+
+    do not clear tty
+
+commit eb8c5dd5b461f2fcd2a04b8a08354e494394df4a
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu May 14 14:07:38 2020 -0400
+
+    bumped changelog version
+
 commit 2cac2bed7169ae4d5477cbca1f2916bae110a450
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu May 14 14:07:05 2020 -0400
