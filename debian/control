@@ -39,7 +39,7 @@ Description: Enables miscellaneous debug settings
  /etc/security/limits.d/40_debug-misc.conf
  .
  Coredumps may contain important information such as encryption keys or
- passwords. Package security-misc disables doredumps. Package debug-misc
+ passwords. Package security-misc disables coredumps. Package debug-misc
  re-enables coredumps.
  .
  For better usability, to ease debugging in case of issues.
