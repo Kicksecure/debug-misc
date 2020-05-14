@@ -1,28 +1,33 @@
 # Enables miscellaneous debug settings #
 
-Ships a /etc/default/grub.d/30_output_verbose.cfg configuration file, that
-removes `quiet` from the `GRUB_CMDLINE_LINUX_DEFAULT` variable and adds
-`debug=vc` to the kernel boot parameter to enable verbose output during the
-initial ramdisk boot phase.
+Ships a `/etc/default/grub.d/30_output_verbose.cfg` configuration file,
+that removes `quiet` and `loglevel=0` from the
+`GRUB_CMDLINE_LINUX_DEFAULT` variable and adds `debug=vc` to the kernel
+boot parameter to enable verbose output during the initial ramdisk boot
+phase.
 
-Undo debugging related sysctl settings by package security-misc.
+Undo debugging related `sysctl` settings by package `security-misc`.
 
 Enables persistent systemd journal log.
 
-Disables /lib/systemd/coredump.conf.d/disable-coredumps.conf by package
-security-misc by creating a symlink from
-/etc/systemd/coredump.conf.d/disable-coredumps.conf to /dev/null.
-debian/debug-misc.links
+Disables `/lib/systemd/coredump.conf.d/disable-coredumps.conf` by package
+`security-misc` by creating a symlink from
+`/etc/systemd/coredump.conf.d/disable-coredumps.conf` to `/dev/null`.
+`debian/debug-misc.links`
 
-Disables panic-on-oops, remove-system.map by security-misc.
+Disables `panic-on-oops`, `remove-system.map` by package `security-misc`.
 
-config-package-dev hide /etc/sysctl.d/30_silent-kernel-printk.conf
+`config-package-dev` `hide` `/etc/sysctl.d/30_silent-kernel-printk.conf` which
+kernel.printk to default as if security-misc would not have lowered verbosity.
+
+Configure systemd `getty` service to not clear `tty`.
+`/lib/systemd/system/getty@tty.service.d/30_debug-misc.conf`
 
 Coredumps are enabled.
-/etc/security/limits.d/40_debug-misc.conf
+`/etc/security/limits.d/40_debug-misc.conf`
 
 Coredumps may contain important information such as encryption keys or
-passwords. Package security-misc disables doredumps. Package debug-misc
+passwords. Package `security-misc` disables coredumps. Package `debug-misc`
 re-enables coredumps.
 
 For better usability, to ease debugging in case of issues.
