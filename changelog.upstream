@@ -1,3 +1,17 @@
+commit 5a856595c1cf0a4a3b08e6ea75bd2fe2b3f2f398
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu May 14 13:21:50 2020 -0400
+
+    remove /etc/default/grub.d loglevel=0
+    
+    https://phabricator.whonix.org/T950
+
+commit 1a2d7e37e89e6bc783a7df66c6e568a2f3612b32
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Apr 16 08:29:36 2020 -0400
+
+    bumped changelog version
+
 commit 9f38f672161129387f8c7a9f111286ef94e2fa3f
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed Apr 15 14:05:30 2020 -0400
