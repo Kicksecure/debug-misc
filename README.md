@@ -16,6 +16,8 @@ debian/debug-misc.links
 
 Disables panic-on-oops, remove-system.map by security-misc.
 
+config-package-dev hide /etc/sysctl.d/30_silent-kernel-printk.conf
+
 Coredumps are enabled.
 /etc/security/limits.d/40_debug-misc.conf
 
