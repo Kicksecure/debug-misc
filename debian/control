@@ -18,7 +18,7 @@ Suggests: systemd-coredump, serial-console-enable
 Replaces: grub-output-verbose
 Description: Enables miscellaneous debug settings
  Ships a `/etc/default/grub.d/30_output_verbose.cfg` configuration file,
- that removes `quiet` and `loglevel=0` from the
+ that removes `quiet`, `loglevel=0` and `debugfs=off` from the
  `GRUB_CMDLINE_LINUX_DEFAULT` variable and adds `debug=vc` to the kernel
  boot parameter to enable verbose output during the initial ramdisk boot
  phase.
