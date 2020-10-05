@@ -1,3 +1,31 @@
+commit 386548da1fdb38e61c10ae317fdaf71b9fbec06b
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Oct 5 07:02:07 2020 -0400
+
+    readme
+
+commit f4d7bb2146f95892c39ce5e01242a01fc510ebdb
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Oct 3 14:14:16 2020 -0400
+
+    description
+
+commit 049f5ac616078856c63cb55ac1ab4d01ebadca3b
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Oct 3 14:12:55 2020 -0400
+
+    remove `debugfs=off`
+    
+    https://forums.whonix.org/t/kernel-hardening/7296/447
+    
+    https://github.com/Whonix/security-misc/pull/77
+
+commit fd8b7545974dd07d939dfdd43a265412bdcca0a2
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu May 14 18:50:32 2020 -0400
+
+    bumped changelog version
+
 commit b5baa39373fe08dfe30463e9c193acf844f2c04f
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu May 14 18:50:31 2020 -0400
