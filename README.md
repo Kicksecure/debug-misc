@@ -1,7 +1,7 @@
 # Enables miscellaneous debug settings #
 
-Ships a `/etc/default/grub.d/30_output_verbose.cfg` configuration file,
-that removes `quiet` and `loglevel=0` from the
+Ships a `/etc/default/grub.d/45_debug-misc.cfg` configuration file,
+that removes `quiet`, `loglevel=0` and `debugfs=off` from the
 `GRUB_CMDLINE_LINUX_DEFAULT` variable and adds `debug=vc` to the kernel
 boot parameter to enable verbose output during the initial ramdisk boot
 phase.
@@ -37,7 +37,7 @@ machines that require debugging. Unfortunately, security and debugging are
 conflicting optimization goals.
 ## How to install `debug-misc` using apt-get ##
 
-1\. Download [Whonix's Signing Key]().
+1\. Download Whonix's Signing Key.
 
 ```
 wget https://www.whonix.org/patrick.asc
