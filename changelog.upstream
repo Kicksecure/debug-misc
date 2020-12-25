@@ -1,3 +1,17 @@
+commit f73a3467ff23f427f54eb3aec630f24bf25a9527
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Dec 25 08:59:45 2020 -0500
+
+    simplify creation of coredump files
+    
+    config-package-dev hide /etc/security/limits.d/30_security-misc.conf
+
+commit 8c0ed46dcb38a371883b7afb876e452fb016b71f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Dec 25 07:29:59 2020 -0500
+
+    bumped changelog version
+
 commit 3eaff0e2485f58b8dfd7bb1018bb0dbf70d29a34
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Dec 25 07:29:58 2020 -0500
