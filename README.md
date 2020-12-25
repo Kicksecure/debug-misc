@@ -30,6 +30,13 @@ Coredumps may contain important information such as encryption keys or
 passwords. Package `security-misc` disables coredumps. Package `debug-misc`
 re-enables coredumps.
 
+Contains a helper tool to cause a segfault for testing purposes.
+`segfault-build` creates `segfault-run`. Running `segfault-run` results in
+`segfault-run` terminating with a segfault. This is useful to test if
+coredump files are being generated when an application crashes.
+`/usr/sbin/segfault-build`
+`/usr/share/debug-misc/segfault.c`
+
 For better usability, to ease debugging in case of issues.
 
 For better security, this package should only be installed on specific
