@@ -2,3 +2,4 @@
 ## See the file COPYING for copying conditions.
 
 /etc/sysctl.d/30_silent-kernel-printk.conf
+/etc/security/limits.d/30_security-misc.conf
