@@ -1,0 +1,24 @@
+#!/bin/bash
+
+## Copyright (C) 2020 - 2020 ENCRYPTED SUPPORT LP <adrelanos@riseup.net>
+## See the file COPYING for copying conditions.
+
+if [ ! "$(id -u)" = "0" ]; then
+   echo "$0: ERROR: Needs to run as root. Run:
+sudo $0" >&2
+   exit 1
+fi
+
+if ! type -P gcc >/dev/null ; then
+   echo "$0: ERROR: gcc not installed. To install:
+
+   sudo apt update
+
+sudo apt --no-install-recommends install gcc" >&2
+   exit 1
+fi
+
+gcc /usr/share/debug-misc/segfault.c -g -o /usr/bin/segfault-run
+
+echo "$0: SUCCESS. You can now run:"
+echo "segfault-run"

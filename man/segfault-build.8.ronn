@@ -1,0 +1,25 @@
+segfault-build(8) -- create segfault-run program
+=============================================
+
+<span class="comment">
+# Copyright (C) 2012 - 2020 ENCRYPTED SUPPORT LP <adrelanos@riseup.net>
+# See the file COPYING for copying conditions.
+</span>
+
+## SYNOPSIS
+
+segfault-build
+
+## DESCRIPTION
+
+Creates `segfault-run`.
+
+## RETURN VALUES
+
+0 success.
+
+Non-zero otherwise.
+
+## AUTHOR
+
+This man page has been written by Patrick Schleizer (adrelanos@riseup.net).
