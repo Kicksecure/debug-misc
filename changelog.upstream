@@ -1,3 +1,15 @@
+commit 5fae59c77b93eb24b0424ea8759ed679ce4519a0
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Dec 25 09:22:58 2020 -0500
+
+    allow unlimited core dumps by default
+
+commit bb7472301c7ea6d6b4c198c6e4c01b61eefcb83b
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Dec 25 09:00:11 2020 -0500
+
+    bumped changelog version
+
 commit f73a3467ff23f427f54eb3aec630f24bf25a9527
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Dec 25 08:59:45 2020 -0500
