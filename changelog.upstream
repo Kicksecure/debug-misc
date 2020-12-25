@@ -1,3 +1,38 @@
+commit 3eaff0e2485f58b8dfd7bb1018bb0dbf70d29a34
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Dec 25 07:29:58 2020 -0500
+
+    readme
+
+commit f7b74574b4b41d035d4162fdacbc7e11b717391b
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Dec 25 07:18:29 2020 -0500
+
+    add helper tool to cause a segfault for testing purposes.
+    
+    `segfault-build` creates `segfault-run`. Running `segfault-run` results in
+    `segfault-run` terminating with a segfault. This is useful to test if
+    coredump files are being generated when an application crashes.
+    
+        sudo segfault-build
+    
+    > /usr/sbin/segfault-build: SUCCESS. You can now run:
+    > segfault-run
+    
+        segfault-run
+    
+    > Segmentation fault (core dumped)
+    
+        echo $?
+    
+    > 139
+
+commit e44067cac0d3fcc3507805d5da40034147b3e910
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Oct 5 07:02:07 2020 -0400
+
+    bumped changelog version
+
 commit 386548da1fdb38e61c10ae317fdaf71b9fbec06b
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Mon Oct 5 07:02:07 2020 -0400
