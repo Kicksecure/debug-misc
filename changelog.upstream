@@ -1,3 +1,21 @@
+commit eb232484bc4d248d866456c0eb236c17a137cc4c
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Sep 2 18:49:32 2021 -0400
+
+    dracut
+
+commit 017c41ed068e5b675f741bc34c3d1f1733a5c8af
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Sep 2 18:45:57 2021 -0400
+
+    Removing 'rhgb' from GRUB_CMDLINE_LINUX_DEFAULT
+
+commit 6605295809aab1907d0f268b82941343f48602a2
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Sep 2 14:35:53 2021 -0400
+
+    bumped changelog version
+
 commit 915882889918bf7969fa7b9f7bb6f7dfcb5bb554
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed Sep 1 15:59:00 2021 -0400
