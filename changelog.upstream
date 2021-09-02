@@ -1,3 +1,15 @@
+commit 915882889918bf7969fa7b9f7bb6f7dfcb5bb554
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Sep 1 15:59:00 2021 -0400
+
+    add_dracutmodules+=" debug "
+
+commit 50adb73a213e5ace10e7efd6c1ad722b07219331
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Aug 5 16:39:55 2021 -0400
+
+    bumped changelog version
+
 commit f60043f91175f2c103d514466616ed3ee42a0544
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Tue Aug 3 12:48:52 2021 -0400
