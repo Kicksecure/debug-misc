@@ -1,3 +1,15 @@
+commit 9dbc19831b99df2838249ae7e9c43731a9108cab
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Jun 29 13:01:31 2022 -0400
+
+    systemd
+
+commit ed56c9cef5566395ae9533807afb46daf92671b0
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Jun 29 11:18:08 2022 -0400
+
+    bumped changelog version
+
 commit 2eaa8dee124a69b7e97c86bb62da63b2a31a6f90
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed Jun 29 11:04:22 2022 -0400
