@@ -3,6 +3,8 @@
 ## Copyright (C) 2020 - 2023 ENCRYPTED SUPPORT LP <adrelanos@whonix.org>
 ## See the file COPYING for copying conditions.
 
+set -e
+
 if [ ! "$(id -u)" = "0" ]; then
    echo "$0: ERROR: Needs to run as root. Run:
 sudo $0" >&2
