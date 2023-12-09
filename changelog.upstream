@@ -1,3 +1,27 @@
+commit 2523155b34c2f200a18918f25b4151e6d86a34b5
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Dec 9 11:16:00 2023 -0500
+
+    remove duplicate
+
+commit 8ca1d6a17eb08b7a9cbaa7adaf3eee6b4f159e93
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Dec 9 11:15:37 2023 -0500
+
+    refactoring
+
+commit d26f38584d2f6e363d7911c441f4eadcb179dbb8
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Dec 9 11:14:44 2023 -0500
+
+    comments
+
+commit ecc9b231e8a462da9888b7d7c5dabb79d99b7c13
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Dec 4 17:06:31 2023 +0000
+
+    bumped changelog version
+
 commit 7fb39fe6be43bc73b9975c3085b07a7fbafcbbe7
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Mon Dec 4 10:27:17 2023 -0500
