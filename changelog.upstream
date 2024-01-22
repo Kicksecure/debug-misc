@@ -1,3 +1,21 @@
+commit bd20bc0f098830f76eb55afbfbd726cbf98b68d3
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Jan 22 07:37:06 2024 -0500
+
+    add debian install file (generated using "genmkfile debinstfile")
+
+commit 31b5e804ef435fb42a9268b825e7e2328ea036c1
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Jan 22 07:15:51 2024 -0500
+
+    usrmerge
+
+commit 5e834c4f260e188def6ec14b590e18455e98822c
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Dec 9 16:30:55 2023 +0000
+
+    bumped changelog version
+
 commit 2523155b34c2f200a18918f25b4151e6d86a34b5
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sat Dec 9 11:16:00 2023 -0500
