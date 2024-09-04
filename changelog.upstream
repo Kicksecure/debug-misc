@@ -1,3 +1,50 @@
+commit 996b1eaa3d83db69a59eeac46a771b367a210a6e
+Merge: e05f6a0 ec7a6fa
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Sep 4 10:07:06 2024 -0400
+
+    Merge remote-tracking branch 'github-kicksecure/master'
+
+commit ec7a6fa463a2ac4c9891fdf6b7e9a64faa7db977
+Merge: e05f6a0 8a0a5db
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Sep 4 10:06:10 2024 -0400
+
+    Merge pull request #1 from raja-grewal/patch
+    
+    Update debugging relevant to kernel panics
+
+commit 8a0a5db9d7c87d6f6b02059e34b0f77c91f147b9
+Author: raja-grewal <rg_public@proton.me>
+Date:   Sun Sep 1 19:41:09 2024 +1000
+
+    Update README.md
+
+commit 258238d141c60e87d3f198ce09016dc6b46149a8
+Author: Raja Grewal <rg_public@proton.me>
+Date:   Fri Aug 30 01:04:53 2024 +1000
+
+    Allow infinite "oopses"
+
+commit 4f25ddefd2c5fe93c36f0d67e69a9e098c312e17
+Author: Raja Grewal <rg_public@proton.me>
+Date:   Fri Aug 30 01:04:15 2024 +1000
+
+    Do not force eventual reboot upon kernel panic
+
+commit 198086188019474012ea9ebce9e024ac6adfe70f
+Author: Raja Grewal <rg_public@proton.me>
+Date:   Fri Aug 30 00:41:16 2024 +1000
+
+    Update debugging relevant to kernel panics
+    https://github.com/Kicksecure/security-misc/pull/268#issuecomment-2317112703
+
+commit e05f6a0c782d7994ca603fffbf8f334f7c42c3b2
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Jan 22 13:29:01 2024 +0000
+
+    bumped changelog version
+
 commit 51ca09d0945d06768a8a136de8f32afaa3813ebf
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Mon Jan 22 07:39:18 2024 -0500
