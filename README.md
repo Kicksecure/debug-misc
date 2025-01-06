@@ -15,7 +15,7 @@ Disables `/lib/systemd/coredump.conf.d/disable-coredumps.conf` by package
 `/etc/systemd/coredump.conf.d/disable-coredumps.conf` to `/dev/null`.
 `debian/debug-misc.links`
 
-Disables `panic-on-oops`,`panic-on-warn`, `remove-system.map` by package `security-misc`.
+Disables `panic-on-oops`, `remove-system.map` by package `security-misc`.
 
 `config-package-dev` `hide` `/etc/sysctl.d/30_silent-kernel-printk.conf` which
 kernel.printk to default as if security-misc would not have lowered verbosity.
