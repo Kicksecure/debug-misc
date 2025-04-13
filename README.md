@@ -10,10 +10,9 @@ Undo debugging related `sysctl` settings by package `security-misc`.
 
 Enables persistent systemd journal log.
 
-Disables `/lib/systemd/coredump.conf.d/disable-coredumps.conf` by package
-`security-misc` by creating a symlink from
-`/etc/systemd/coredump.conf.d/disable-coredumps.conf` to `/dev/null`.
-`debian/debug-misc.links`
+ Disables `/usr/lib/systemd/coredump.conf.d/30_security-misc.conf` by package
+`security-misc` using `debian/debug-misc.links` by creating a symlink from
+`/etc/systemd/coredump.conf.d/30_security-misc.conf` to `/dev/null`.
 
 Disables `panic-on-oops`, `remove-system.map` by package `security-misc`.
 
