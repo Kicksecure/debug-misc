@@ -1,10 +1,10 @@
 # Enables miscellaneous debug settings #
 
 Ships a `/etc/default/grub.d/45_debug-misc.cfg` configuration file,
-that removes `quiet`, `loglevel=0` and `debugfs=off` from the
-`GRUB_CMDLINE_LINUX_DEFAULT` variable and adds `debug=vc` to the kernel
-boot parameter to enable verbose output during the initial ramdisk boot
-phase.
+that removes `quiet`, `loglevel=0`, `debugfs=off`, and `efi_pstore.pstore_disable=1`
+from the `GRUB_CMDLINE_LINUX_DEFAULT` variable and adds `debug=vc` to
+the kernel boot parameter to enable verbose output during the initial
+ramdisk boot phase.
 
 Undo debugging related `sysctl` settings by package `security-misc`.
 
