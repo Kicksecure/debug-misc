@@ -4,3 +4,7 @@
 ## Disable /usr/lib/systemd/coredump.conf.d/30_security-misc.conf by
 ## package security-misc.
 /dev/null /etc/systemd/coredump.conf.d/30_security-misc.conf
+
+## Disable /usr/lib/systemd/pstore.conf.d/30_security-misc.conf by
+## package security-misc.
+/dev/null /etc/systemd/pstore.conf.d/30_security-misc.conf
