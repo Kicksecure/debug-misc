@@ -1,3 +1,43 @@
+commit d32914ba5b0d592c03ce4517d3f2083be6641939
+Merge: a7e234d 91666c8
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Apr 15 15:16:42 2025 -0400
+
+    Merge remote-tracking branch 'github-kicksecure/master'
+
+commit 91666c89e9300ef79c11d563f83424ebc73b69ac
+Merge: a7e234d 18d2612
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Apr 15 15:15:27 2025 -0400
+
+    Merge pull request #2 from raja-grewal/update
+    
+    Update debugging
+
+commit 18d261226b86dfa65f72c44667e82a2eaff5770d
+Author: raja-grewal <rg_public@proton.me>
+Date:   Sun Apr 13 03:57:30 2025 +0000
+
+    Remove `efi_pstore.pstore_disable=1`
+
+commit 5e47e92835a126c9fc31f0177c886edd500cd985
+Author: raja-grewal <rg_public@proton.me>
+Date:   Sun Apr 13 03:54:21 2025 +0000
+
+    Enable pstore processing by systemd-pstore service
+
+commit 3f39dbdd1848d4025acb91e70db9f2e113255963
+Author: raja-grewal <rg_public@proton.me>
+Date:   Sun Apr 13 03:51:57 2025 +0000
+
+    Update coredumps enabling documentation
+
+commit a7e234dd2f84726169f29b0da3e607fc66617ccb
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Jan 23 16:18:09 2025 +0000
+
+    bumped changelog version
+
 commit d96e4ac78458ac03c0edb6102fb43f1f45a6b218
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Thu Jan 23 11:09:21 2025 -0500
