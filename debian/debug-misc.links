@@ -1,6 +1,10 @@
 ## Copyright (C) 2019 - 2025 ENCRYPTED SUPPORT LLC <adrelanos@whonix.org>
 ## See the file COPYING for copying conditions.
 
-## Disable /lib/systemd/coredump.conf.d/30_security-misc.conf by
+## Disable /usr/lib/systemd/coredump.conf.d/30_security-misc.conf by
 ## package security-misc.
 /dev/null /etc/systemd/coredump.conf.d/30_security-misc.conf
+
+## Disable /usr/lib/systemd/pstore.conf.d/30_security-misc.conf by
+## package security-misc.
+/dev/null /etc/systemd/pstore.conf.d/30_security-misc.conf

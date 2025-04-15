@@ -19,19 +19,22 @@ Suggests: systemd-coredump, serial-console-enable
 Replaces: grub-output-verbose
 Description: Enables miscellaneous debug settings
  Ships a `/etc/default/grub.d/45_debug-misc.cfg` configuration file,
- that removes `quiet`, `loglevel=0` and `debugfs=off` from the
- `GRUB_CMDLINE_LINUX_DEFAULT` variable and adds `debug=vc` to the kernel
- boot parameter to enable verbose output during the initial ramdisk boot
- phase.
+that removes `quiet`, `loglevel=0`, `debugfs=off`, and `efi_pstore.pstore_disable=1`
+from the `GRUB_CMDLINE_LINUX_DEFAULT` variable and adds `debug=vc` to
+the kernel boot parameter to enable verbose output during the initial
+ramdisk boot phase.
  .
  Undo debugging related `sysctl` settings by package `security-misc`.
  .
  Enables persistent systemd journal log.
  .
- Disables `/lib/systemd/coredump.conf.d/disable-coredumps.conf` by package
- `security-misc` by creating a symlink from
- `/etc/systemd/coredump.conf.d/disable-coredumps.conf` to `/dev/null`.
- `debian/debug-misc.links`
+ Disables `/usr/lib/systemd/coredump.conf.d/30_security-misc.conf` by package
+`security-misc` using `debian/debug-misc.links` by creating a symlink from
+`/etc/systemd/coredump.conf.d/30_security-misc.conf` to `/dev/null`.
+ .
+ Disables `/usr/lib/systemd/pstore.conf.d/30_security-misc.conf` by package
+`security-misc` using `debian/debug-misc.links` by creating a symlink from
+`/etc/systemd/pstore.conf.d/30_security-misc.conf` to `/dev/null`.
  .
  Disables `panic-on-oops`, `remove-system.map` by package `security-misc`.
  .
