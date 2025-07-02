@@ -1,3 +1,51 @@
+commit a5b81bf6cc0b6c947d7145d053a5c43b4449953a
+Merge: a36b287 52876a1
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Jul 2 13:49:32 2025 -0400
+
+    Merge remote-tracking branch 'github-kicksecure/master'
+
+commit 52876a1661505320ef88d893c5e9a66b983cd510
+Merge: a36b287 052353f
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Jul 2 13:48:32 2025 -0400
+
+    Merge pull request #3 from raja-grewal/erst
+    
+    Update debugging relevant to kernel parameters
+
+commit 052353f7c2ef5832607df866a0efb6fb50c49ee7
+Author: raja-grewal <rg_public@proton.me>
+Date:   Wed Jul 2 11:31:41 2025 +1000
+
+    Apply suggestions from code review
+    
+    Co-authored-by: Aaron Rainbolt <arraybolt3@gmail.com>
+
+commit a3ae7d85a55b24e7a06ec27a0a0ac5b8c69d41d3
+Author: raja-grewal <rg_public@proton.me>
+Date:   Fri May 23 10:22:58 2025 +0000
+
+    Small clarification
+
+commit 025f32bf71bee1eaea6d9143d137fd7e3b9b507a
+Author: raja-grewal <rg_public@proton.me>
+Date:   Sat May 17 04:53:18 2025 +0000
+
+    Minor corrections to `45_debug-misc.cfg`
+
+commit c896b39218a0cad59a7b5e2aaef8a721f6a30a7d
+Author: raja-grewal <rg_public@proton.me>
+Date:   Sat May 17 04:41:55 2025 +0000
+
+    Remove `erst_disable`
+
+commit a36b2875efdb42ee5af553cebb3d9b1e4c06690b
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Apr 15 20:57:40 2025 +0000
+
+    bumped changelog version
+
 commit 6b18706526272f557b04ce0423644bebfb14b3d9
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Tue Apr 15 16:56:51 2025 -0400
