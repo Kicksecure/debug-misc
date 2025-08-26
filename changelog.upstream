@@ -1,3 +1,72 @@
+commit 719fde5bffd3e937e11a42ee4543c8a165c5d3a8
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Aug 26 04:52:38 2025 -0400
+
+    re-generate man pages (generated using "genmkfile manpages")
+
+commit f555a1eb771b6812536c99179e71874e6da94b7f
+Merge: b09271a 558c185
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Aug 25 14:02:01 2025 -0400
+
+    Merge remote-tracking branch 'raja/panic_update'
+
+commit b09271a27bcc68f85e22a122ab2cd58bd0acf488
+Merge: 9292686 8db437f
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Aug 20 07:11:35 2025 -0400
+
+    Merge remote-tracking branch 'ArrayBolt3/arraybolt3/trixie'
+
+commit 92926864440da735ecde0a18718122fcbca538cd
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Aug 20 06:57:25 2025 -0400
+
+    bumped Standards-Version
+
+commit 71f190b88defb8fbe289ee2b645f44b9517f4e08
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Aug 20 06:25:31 2025 -0400
+
+    readme
+
+commit 558c18596e7e01b1c7b29f869555f94f1914ced1
+Author: raja-grewal <rg_public@proton.me>
+Date:   Tue Aug 19 11:09:27 2025 +1000
+
+    Reorder settings to be consistent with `secuirty-misc`
+
+commit 8db437fad75feb45fce003721e65d41fbdd8fe6e
+Merge: e6c1896 d14f1ce
+Author: Aaron Rainbolt <arraybolt3@ubuntu.com>
+Date:   Sun Aug 17 14:05:59 2025 -0500
+
+    Merge remote-tracking branch 'raja/panic_update' into arraybolt3/trixie
+
+commit d14f1cedf134673d5ce485c95506fe8b610ee83c
+Author: raja-grewal <rg_public@proton.me>
+Date:   Sun Aug 17 06:42:29 2025 +0000
+
+    Remove `sysctl kernel.panic=-1`
+
+commit e6c1896accfb5757b70d556981fe0d4bfc27eb2b
+Author: Aaron Rainbolt <arraybolt3@ubuntu.com>
+Date:   Tue Aug 5 22:57:58 2025 -0500
+
+    Port to Trixie.
+
+commit edf40f2ebd444880fd54f9d9bf3cba7c61ec35c5
+Author: raja-grewal <rg_public@proton.me>
+Date:   Wed Aug 6 02:36:41 2025 +0000
+
+    Upgrade sysctls on kernel panics
+
+commit a9b5e3599ca1d1d62e48f420b6dcaa63cc3267e9
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Jul 2 20:48:13 2025 +0000
+
+    bumped changelog version
+
 commit 3086d20d0bd71ee5be25daeb877fa068d368c998
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed Jul 2 16:47:59 2025 -0400
