@@ -1,3 +1,23 @@
+commit ea98b902f8bfb546712680fe029d2404d3a1f47c
+Merge: 0e170f6 ddf4aa2
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Aug 27 05:01:47 2025 -0400
+
+    Merge remote-tracking branch 'ArrayBolt3/arraybolt3/trixie'
+
+commit ddf4aa238a785c766c62bb594ea3ec5cf5c468a4
+Merge: 26d4e27 0e170f6
+Author: Aaron Rainbolt <arraybolt3@ubuntu.com>
+Date:   Tue Aug 26 19:15:27 2025 -0500
+
+    Merge branch 'master' into arraybolt3/trixie
+
+commit 0e170f6f717357986b37b7db847ace723e78d6b6
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Aug 26 08:52:39 2025 +0000
+
+    bumped changelog version
+
 commit 719fde5bffd3e937e11a42ee4543c8a165c5d3a8
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Tue Aug 26 04:52:38 2025 -0400
@@ -10,6 +30,19 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Mon Aug 25 14:02:01 2025 -0400
 
     Merge remote-tracking branch 'raja/panic_update'
+
+commit 26d4e279c155b6aa414b6750ccf5b5191549af23
+Merge: d663771 558c185
+Author: Aaron Rainbolt <arraybolt3@ubuntu.com>
+Date:   Sun Aug 24 10:26:51 2025 -0500
+
+    Merge remote-tracking branch 'raja/panic_update' into arraybolt3/trixie
+
+commit d663771bc4d0d836f9d9519e0c90441aa7b11afa
+Author: Aaron Rainbolt <arraybolt3@ubuntu.com>
+Date:   Sat Aug 23 22:52:40 2025 -0500
+
+    Remove initramfs-tools support
 
 commit b09271a27bcc68f85e22a122ab2cd58bd0acf488
 Merge: 9292686 8db437f
