@@ -8,22 +8,24 @@ This removes `quiet`, `loglevel=0`, and `rhgb` from the
 `GRUB_CMDLINE_LINUX` variable to enable verbose output during the
 initial ramdisk boot phase.
 
-Undo debugging related `sysctl` settings by package `security-misc`.
+Undo debugging related `sysctl` settings by package `security-misc-shared`.
 
 Enables persistent systemd journal log.
 
 Disables `/usr/lib/systemd/coredump.conf.d/30_security-misc.conf` by package
-`security-misc` using `debian/debug-misc.links` by creating a symlink from
-`/etc/systemd/coredump.conf.d/30_security-misc.conf` to `/dev/null`.
+`security-misc-shared` using `debian/debug-misc.links` by creating a symlink
+from`/etc/systemd/coredump.conf.d/30_security-misc.conf` to `/dev/null`.
 
 Disables `/usr/lib/systemd/pstore.conf.d/30_security-misc.conf` by package
-`security-misc` using `debian/debug-misc.links` by creating a symlink from
-`/etc/systemd/pstore.conf.d/30_security-misc.conf` to `/dev/null`.
+`security-misc-shared` using `debian/debug-misc.links` by creating a symlink
+from `/etc/systemd/pstore.conf.d/30_security-misc.conf` to `/dev/null`.
 
-Disables `panic-on-oops`, `remove-system.map` by package `security-misc`.
+Disables `panic-on-oops`, `remove-system.map` by package
+`security-misc-shared`.
 
 `config-package-dev` `hide` `/etc/sysctl.d/30_silent-kernel-printk.conf` which
-kernel.printk to default as if security-misc would not have lowered verbosity.
+kernel.printk to default as if `security-misc-shared` would not have lowered
+verbosity.
 
 Configure systemd `getty` service to not clear `tty`.
 `/lib/systemd/system/getty@tty.service.d/30_debug-misc.conf`
@@ -32,8 +34,8 @@ Coredumps are enabled.
 `/etc/security/limits.d/40_debug-misc.conf`
 
 Coredumps may contain important information such as encryption keys or
-passwords. Package `security-misc` disables coredumps. Package `debug-misc`
-re-enables coredumps.
+passwords. Package `security-misc-shared` disables coredumps. Package
+`debug-misc` re-enables coredumps.
 
 Contains a helper tool to cause a segfault for testing purposes.
 `segfault-build` creates `segfault-run`. Running `segfault-run` results in
