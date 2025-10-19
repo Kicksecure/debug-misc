@@ -1,3 +1,17 @@
+commit 34376714cbdefef1539be378038c088793a60bab
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sun Oct 19 03:37:36 2025 -0400
+
+    disable security-misc's `/usr/lib/sysctl.d/30_security-misc_ptrace-disable.conf`
+    
+    https://github.com/Kicksecure/security-misc/issues/321
+
+commit 3cc5985a473ee1f7a0f8363682d03d4db7080523
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Sep 22 17:11:46 2025 +0000
+
+    bumped changelog version
+
 commit 20e65b19b6564ec354b449cbb01d759ca4c89dbe
 Merge: 015fa10 8d03b7c
 Author: Patrick Schleizer <adrelanos@whonix.org>
