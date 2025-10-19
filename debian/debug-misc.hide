@@ -3,3 +3,4 @@
 
 /etc/sysctl.d/30_silent-kernel-printk.conf
 /etc/security/limits.d/30_security-misc.conf
+/usr/lib/sysctl.d/30_security-misc_ptrace-disable.conf
