@@ -14,7 +14,7 @@ Enables persistent systemd journal log.
 
 Disables `/usr/lib/systemd/coredump.conf.d/30_security-misc.conf` by package
 `security-misc-shared` using `debian/debug-misc.links` by creating a symlink
-from`/etc/systemd/coredump.conf.d/30_security-misc.conf` to `/dev/null`.
+from `/etc/systemd/coredump.conf.d/30_security-misc.conf` to `/dev/null`.
 
 Disables `/usr/lib/systemd/pstore.conf.d/30_security-misc.conf` by package
 `security-misc-shared` using `debian/debug-misc.links` by creating a symlink
@@ -23,9 +23,9 @@ from `/etc/systemd/pstore.conf.d/30_security-misc.conf` to `/dev/null`.
 Disables `panic-on-oops`, `remove-system.map` by package
 `security-misc-shared`.
 
-`config-package-dev` `hide` `/etc/sysctl.d/30_silent-kernel-printk.conf` which
-kernel.printk to default as if `security-misc-shared` would not have lowered
-verbosity.
+`config-package-dev` `hide` `/etc/sysctl.d/30_silent-kernel-printk.conf`
+which kernel.printk to default as if `security-misc-shared` would not have
+lowered verbosity.
 
 Configure systemd `getty` service to not clear `tty`.
 `/lib/systemd/system/getty@tty.service.d/30_debug-misc.conf`
