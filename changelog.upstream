@@ -1,3 +1,22 @@
+commit af68b90a0a67240712a2aa800cbf4e5745bd8562
+Merge: 265c826 d8e576e
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Nov 8 01:27:29 2025 -0500
+
+    Merge remote-tracking branch 'ArrayBolt3/arraybolt3/trixie'
+
+commit d8e576e10471c718e754fe7e951514197273fab0
+Author: Aaron Rainbolt <arraybolt3@ubuntu.com>
+Date:   Fri Nov 7 16:50:28 2025 -0600
+
+    Disable panic_on_oom
+
+commit 265c826baf59951ad4935d2e3cc9f2581d33be28
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri Nov 7 10:45:34 2025 +0000
+
+    bumped changelog version
+
 commit ff365c43aee8b96887028f13d33cbac4a3a4303c
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Fri Nov 7 05:35:13 2025 -0500

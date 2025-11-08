@@ -1,3 +1,9 @@
+debug-misc (3:5.6-1) unstable; urgency=medium
+
+  * New upstream version (local package).
+
+ -- Patrick Schleizer <adrelanos@whonix.org>  Sat, 08 Nov 2025 07:05:20 +0000
+
 debug-misc (3:5.5-1) unstable; urgency=medium
 
   * New upstream version (local package).
