@@ -1,3 +1,9 @@
+commit 2cd1adb877accbbab53164b90a0f30870c66e24c
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Mar 28 09:43:04 2026 +0000
+
+    bumped changelog version
+
 commit d467d24b0a3aa5776973b4d8cfbbace843391ec5
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sat Mar 28 05:30:16 2026 -0400
@@ -64,7 +70,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sun Oct 19 03:37:36 2025 -0400
 
     disable security-misc's `/usr/lib/sysctl.d/30_security-misc_ptrace-disable.conf`
-    
+
     https://github.com/Kicksecure/security-misc/issues/321
 
 commit 3cc5985a473ee1f7a0f8363682d03d4db7080523
@@ -225,7 +231,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed Jul 2 13:48:32 2025 -0400
 
     Merge pull request #3 from raja-grewal/erst
-    
+
     Update debugging relevant to kernel parameters
 
 commit 052353f7c2ef5832607df866a0efb6fb50c49ee7
@@ -233,7 +239,7 @@ Author: raja-grewal <rg_public@proton.me>
 Date:   Wed Jul 2 11:31:41 2025 +1000
 
     Apply suggestions from code review
-    
+
     Co-authored-by: Aaron Rainbolt <arraybolt3@gmail.com>
 
 commit a3ae7d85a55b24e7a06ec27a0a0ac5b8c69d41d3
@@ -303,7 +309,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Tue Apr 15 15:15:27 2025 -0400
 
     Merge pull request #2 from raja-grewal/update
-    
+
     Update debugging
 
 commit 18d261226b86dfa65f72c44667e82a2eaff5770d
@@ -379,7 +385,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed Sep 4 10:06:10 2024 -0400
 
     Merge pull request #1 from raja-grewal/patch
-    
+
     Update debugging relevant to kernel panics
 
 commit 8a0a5db9d7c87d6f6b02059e34b0f77c91f147b9
@@ -760,7 +766,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Dec 25 08:59:45 2020 -0500
 
     simplify creation of coredump files
-    
+
     config-package-dev hide /etc/security/limits.d/30_security-misc.conf
 
 commit 8c0ed46dcb38a371883b7afb876e452fb016b71f
@@ -780,22 +786,22 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Dec 25 07:18:29 2020 -0500
 
     add helper tool to cause a segfault for testing purposes.
-    
+
     `segfault-build` creates `segfault-run`. Running `segfault-run` results in
     `segfault-run` terminating with a segfault. This is useful to test if
     coredump files are being generated when an application crashes.
-    
+
         sudo segfault-build
-    
+
     > /usr/sbin/segfault-build: SUCCESS. You can now run:
     > segfault-run
-    
+
         segfault-run
-    
+
     > Segmentation fault (core dumped)
-    
+
         echo $?
-    
+
     > 139
 
 commit e44067cac0d3fcc3507805d5da40034147b3e910
@@ -821,9 +827,9 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sat Oct 3 14:12:55 2020 -0400
 
     remove `debugfs=off`
-    
+
     https://forums.whonix.org/t/kernel-hardening/7296/447
-    
+
     https://github.com/Whonix/security-misc/pull/77
 
 commit fd8b7545974dd07d939dfdd43a265412bdcca0a2
@@ -903,7 +909,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu May 14 14:07:05 2020 -0400
 
     renamed: /etc/default/grub.d/30_output_verbose.cfg -> /etc/default/grub.d/45_debug-misc.cfg
-    
+
     so it can overrule /etc/default/grub.d/40_kernel_hardening.cfg by security-misc
 
 commit 2b577628f475bce206f015749f2586a4af980c41
@@ -923,7 +929,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu May 14 13:56:10 2020 -0400
 
     config-package-dev hide /etc/sysctl.d/30_silent-kernel-printk.conf by security-misc
-    
+
     add /usr/share/debug-misc/marker to fix lintian warning debug-misc: package-contains-empty-directory usr/share/debug-misc/
 
 commit e20dbf7532a67b9832834c0808268376684c4a38
@@ -937,7 +943,7 @@ Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu May 14 13:21:50 2020 -0400
 
     remove /etc/default/grub.d loglevel=0
-    
+
     https://phabricator.whonix.org/T950
 
 commit 1a2d7e37e89e6bc783a7df66c6e568a2f3612b32
