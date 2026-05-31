@@ -1,3 +1,25 @@
+commit 38ffaa799a3131f03001adb165d3066dd348a89e
+Merge: a3bd941 100262d
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat May 30 14:39:07 2026 -0400
+
+    Merge remote-tracking branch 'github-kicksecure/master'
+
+commit 100262d66b3447ca97f806c0b5b68ddd73f820d8
+Merge: a3bd941 fd39baa
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat May 30 14:38:28 2026 -0400
+
+    Merge pull request #5 from raja-grewal/cdrom
+
+    Add CD-ROM/DVD debugging settings
+
+commit a3bd941b68f9eeccccf6209a655d578a12971c34
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed May 20 22:00:50 2026 +0000
+
+    bumped changelog version
+
 commit 6f93b7c146e799fa45b627936474eb6efdd4241b
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed May 20 16:56:44 2026 -0400
@@ -21,6 +43,12 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sat Mar 28 05:26:49 2026 -0400
 
     signed commit
+
+commit fd39baac1629cc8f720edbdb2d4bfa275960b914
+Author: raja-grewal <rg_public@proton.me>
+Date:   Tue Feb 17 07:13:50 2026 +0000
+
+    sysctl: add cd-rom/dvd debugging settings
 
 commit 3166c3cd2babd7c80a937e51bd97a8a91a6fe225
 Author: Patrick Schleizer <adrelanos@whonix.org>
