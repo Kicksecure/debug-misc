@@ -2,9 +2,9 @@
 
 # shellcheck disable=SC2034,SC3043,SC1091
 
-## style-ok: no-strict
+## style-ok: no-strict - must be compatible with grub.d scripts, as this
+## sources some of them.
 set -o errexit
-set -o nounset
 
 mydir="$( cd "$( dirname "$0" )" && pwd )"
 cd "${mydir}"
